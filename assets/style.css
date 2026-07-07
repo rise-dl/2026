@@ -726,12 +726,12 @@ tr.session-break td {
 
 .footer-logo {
   display: block;
-  height: 88px;
+  height: 90px;
   width: auto;
   max-width: 240px;
   object-fit: contain;
   background: #ffffff;
-  padding: 8px 14px;
+  padding: 4px 0px;
   border-radius: 6px;
   box-shadow: none;
 }
