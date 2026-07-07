@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RISE-DL 2026 — Research and Innovation in Scalable and Efficient Deep Learning</title>
+<meta name="description" content="RISE-DL 2026: a workshop on scalable and efficient deep learning across edge, cloud and HPC environments, co-located with IoT 2026, Newcastle upon Tyne, UK.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <div class="brand-row">
+      <div>
+        <div class="brand">RISE<span>-</span>DL <span>2026</span></div>
+        <div class="brand-sub">CO-LOCATED WITH THE 16TH INTERNATIONAL CONFERENCE ON THE INTERNET OF THINGS (IOT 2026) </div>
+      </div>
+    </div>
+    <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+      <span class="bar"></span>
+    </button>
+    <nav class="primary" id="primaryNav">
+      <a href="index.html">Home</a>
+      <a href="call-for-papers.html">Call for Papers</a>
+      <a href="organizing-committee.html">Organizing Committee</a>
+      <a href="keynote-speakers.html">Keynote Speakers</a>
+      <a href="program-committee.html">Program Committee</a>
+      <a href="program.html"  class="active">Program</a>
+      <a href="accepted-papers.html">Accepted Papers</a>
+    </nav>
+  </div>
+  <hr class="continuum">
+</header>
+
+<!--
+<main>
+  <section>
+    <h2>Full program</h2>
+    <table class="program">
+      <thead>
+        <tr><th>Time</th><th>Session</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="time">10:00 – 10:10</td><td>Welcome and Introduction</td></tr>
+        <tr><td class="time">10:10 – 11:00</td><td>Keynote with Q&amp;A — <em>speaker to be announced</em></td></tr>
+        <tr class="session-break"><td class="time">11:00 – 11:30</td><td>Coffee Break</td></tr>
+        <tr><td class="time">11:30 – 13:00</td><td>Paper Presentations with Q&amp;A</td></tr>
+        <tr class="session-break"><td class="time">13:00 – 14:00</td><td>Lunch Break</td></tr>
+        <tr><td class="time">14:15 – 15:30</td><td>Paper Presentations with Q&amp;A</td></tr>
+        <tr class="session-break"><td class="time">15:30 – 16:00</td><td>Coffee Break</td></tr>
+        <tr><td class="time">16:00 – 16:30</td><td>Panel Discussion / Open Q&amp;A</td></tr>
+        <tr><td class="time">16:30 – 16:40</td><td>Closing Remarks</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+-->
+
+<main>
+  <section>
+    <h2>Program</h2>
+    <p class="tba-inline">The detailed program will be announced soon. Please stay tuned!</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner footer-stack">
+
+    <div class="footer-logos-wrap">
+      <div class="footer-logos">
+        <img src="images/logo_unical.png" alt="University of Calabria" class="footer-logo">
+        <img src="images/logo_auckland.png" alt="University of Auckland" class="footer-logo">
+        <img src="images/logo_samsung.png" alt="Samsung AI Center" class="footer-logo">
+      </div>
+    </div>
+
+    <div class="footer-patronage">
+      <span class="footer-patronage-label">Under the patronage of:</span>
+      <img src="images/logo_patronage.png" alt="Patronage logo" class="footer-patronage-logo">
+    </div>
+
+    <address class="footer-inquiries">
+      <span class="footer-inquiries-label">For any inquiries, contact:</span>
+      <a href="mailto:aorsino@dimes.unical.it">aorsino@dimes.unical.it</a>
+      <span class="footer-sep"> | </span>
+      <a href="mailto:rcantini@dimes.unical.it">rcantini@dimes.unical.it</a>
+    </address>
+
+  </div>
+</footer>
+<script>
+  (function () {
+    var toggle = document.getElementById('navToggle');
+    var nav = document.getElementById('primaryNav');
+    if (!toggle || !nav) return;
+    toggle.addEventListener('click', function () {
+      var isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  })();
+</script>
+</body>
+</html>
