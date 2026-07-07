@@ -730,9 +730,9 @@ tr.session-break td {
   width: auto;
   max-width: 240px;
   object-fit: contain;
-  background: transparent;
-  padding: 0;
-  border-radius: 0;
+  background: #ffffff;
+  padding: 8px 14px;
+  border-radius: 6px;
   box-shadow: none;
 }
 
@@ -777,16 +777,33 @@ tr.session-break td {
 }
 
 .footer-patronage-logo {
-  height: 64px;
-  width: auto;
-  max-width: 220px;
   object-fit: contain;
+  background: #ffffff;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.footer-patronage-logo--icsc {
+  height: 60px;
+  width: auto;
+  max-width: 260px;
+}
+
+.footer-patronage-logo--coesione {
+  height: 70px;
+  width: auto;
+  max-width: 650px;
 }
 
 @media (max-width: 760px) {
-  .footer-patronage-logo {
-    height: 50px;
-    max-width: 170px;
+  .footer-patronage-logo--icsc {
+    height: 44px;
+    max-width: 200px;
+  }
+
+  .footer-patronage-logo--coesione {
+    height: 32px;
+    max-width: 100%;
   }
 }
 
