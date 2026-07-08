@@ -142,13 +142,26 @@ table.program td.time,
 
 a {
   color: var(--link-dark);
-  text-decoration: none;
+  text-decoration: underline;
   text-underline-offset: 0.16em;
+  text-decoration-thickness: 1.2px;
 }
 
 a:hover {
   color: var(--link-dark-hover);
   text-decoration: underline;
+}
+
+nav a,
+.btn,
+.btn-outline {
+  text-decoration: none;
+}
+
+nav a:hover,
+.btn:hover,
+.btn-outline:hover {
+  text-decoration: none;
 }
 
 a:focus-visible,
