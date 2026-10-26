@@ -1209,3 +1209,72 @@ hr {
   flex: 1 1 auto;
   min-width: 0;
 }
+
+.keynote-layout {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  column-gap: 30px;
+  row-gap: 24px;
+  align-items: start;
+}
+
+.keynote-photo-column {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.keynote-photo {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.keynote-bio-section {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.keynote-talk-section {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  width: 100%;
+  min-width: 0;
+}
+
+.keynote-title {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0 0 18px;
+  overflow-wrap: anywhere;
+}
+
+.keynote-abstract-label {
+  margin: 0 0 8px;
+}
+
+.keynote-bio,
+.keynote-abstract {
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 650px) {
+  .keynote-layout {
+    grid-template-columns: 1fr;
+    row-gap: 22px;
+  }
+
+  .keynote-photo-column,
+  .keynote-bio-section,
+  .keynote-talk-section {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .keynote-photo {
+    width: 145px;
+  }
+}
