@@ -1328,3 +1328,35 @@ hr {
   .keynote-title { font-size: 1.25rem; }
   .keynote-talk-section { padding: 18px; }
 }
+
+
+.accepted-papers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.accepted-paper {
+  padding: 0 0 1.25rem;
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+}
+
+.accepted-paper:last-child {
+  border-bottom: none;
+}
+
+.accepted-paper h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.paper-authors {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--text-muted, #666);
+  font-size: 0.95rem;
+}
+
